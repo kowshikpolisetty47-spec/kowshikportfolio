@@ -2,25 +2,25 @@
    DESIGN SYSTEM VARIABLES
    ========================================================================== */
 :root {
-    /* Highly Professional Light Theme - Clean & Pleasant */
-    --bg-primary: #f8fafc; /* Pleasant soft off-white background */
-    --bg-secondary: #ffffff; /* Pure white for secondary sections */
-    --bg-card: rgba(255, 255, 255, 0.75); /* Clean light transparent glass card */
-    --bg-navbar: rgba(248, 250, 252, 0.8); /* Matching sticky navbar background */
-    --text-primary: #0f172a; /* Rich slate dark gray for headers */
-    --text-secondary: #334155; /* Soft charcoal gray for readable body */
-    --text-muted: #64748b; /* Muted gray for indicators and helpers */
-    --border-color: rgba(15, 23, 42, 0.08); /* Clean, visible light border lines */
-    --border-hover: rgba(79, 70, 229, 0.3); /* Subtle indigo accent on card hover */
-    --shadow-color: rgba(15, 23, 42, 0.05); /* Soft, natural layout drop shadows */
-    --glow-color: rgba(79, 70, 229, 0.08); /* Indigo drop-shadow glow */
+    /* Premium Dark Theme - Sleek & Professional */
+    --bg-primary: #0f172a; /* Deep slate dark background */
+    --bg-secondary: #1e293b; /* Slightly lighter slate for sections */
+    --bg-card: rgba(30, 41, 59, 0.7); /* Translucent dark glass card */
+    --bg-navbar: rgba(15, 23, 42, 0.85); /* Matching sticky dark navbar */
+    --text-primary: #f8fafc; /* Crisp white for headers */
+    --text-secondary: #cbd5e1; /* Soft gray for readable body */
+    --text-muted: #94a3b8; /* Muted slate for indicators */
+    --border-color: rgba(255, 255, 255, 0.1); /* Subtle light borders */
+    --border-hover: rgba(16, 185, 129, 0.4); /* Emerald green accent on hover */
+    --shadow-color: rgba(0, 0, 0, 0.4); /* Stronger drop shadows for dark mode */
+    --glow-color: rgba(16, 185, 129, 0.15); /* Emerald drop-shadow glow */
 
     /* Accents & Gradients */
-    --accent-primary: #4f46e5; /* Modern Royal Indigo */
-    --accent-secondary: #3b82f6; /* Modern Blue */
-    --accent-gradient-primary: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
-    --accent-gradient-secondary: linear-gradient(135deg, #6366f1 0%, #0d9488 100%);
-    --accent-gradient-mixed: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
+    --accent-primary: #10b981; /* Premium Emerald Green */
+    --accent-secondary: #0ea5e9; /* Sleek Sky Blue */
+    --accent-gradient-primary: linear-gradient(135deg, #10b981 0%, #0ea5e9 100%);
+    --accent-gradient-secondary: linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%);
+    --accent-gradient-mixed: linear-gradient(135deg, #10b981 0%, #6366f1 100%);
     
     /* Layout & Settings */
     --font-title: 'Outfit', sans-serif;
@@ -904,30 +904,26 @@ li {
     gap: 16px;
 }
 
-.language-bar {
+.language-item {
     display: flex;
-    flex-direction: column;
-    gap: 6px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.language-item:last-child {
+    border-bottom: none;
 }
 
 .lang-name {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.lang-proficiency {
     font-size: 14px;
-    font-weight: 600;
-}
-
-.bar-bg {
-    height: 8px;
-    background-color: rgba(255, 255, 255, 0.08);
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-
-.bar-fill {
-    height: 100%;
-    background: var(--accent-gradient-primary);
-    border-radius: 4px;
-    transition: width 1.5s ease-out;
+    color: var(--text-secondary);
 }
 
 .interests-grid {
