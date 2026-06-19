@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polisetty Venkata Kowshik | Software Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Polisetty Venkata Kowshik, a passionate IT student and Software Developer specializing in Web Development, Programming, and Database Management.">
+    <meta name="keywords" content="Polisetty Venkata Kowshik, Kowshik, Software Developer, Web Development, Portfolio, IT Student, RVR&JC College, Guntur, Bestavaripeta">
+    <meta name="author" content="Polisetty Venkata Kowshik">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Polisetty Venkata Kowshik | Software Developer Portfolio">
+    <meta property="og:description" content="Explore projects, skills, and experience of Polisetty Venkata Kowshik.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">PVK</span><span class="logo-dot">.</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Mobile Menu Toggle (Hamburger) -->
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Open Navigation Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-background">
+                <div class="gradient-sphere sphere-1"></div>
+                <div class="gradient-sphere sphere-2"></div>
+            </div>
+            
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-subtitle">Welcome to my space</span>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient">PV Kowshik</span>
+                    </h1>
+                    <h2 class="hero-typing-container">
+                        I am a <span class="typing-text" id="typing-text">Software Developer</span><span class="typed-cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        An Information Technology student passionate about building elegant web solutions, learning cutting-edge technologies, and solving real-world challenges.
+                    </p>
+                    
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://linkedin.com/in/venkata-kowshik-polisetty-9a4077410" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-icon">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="mailto:kowshikpolisetty47@gmail.com" aria-label="Email Me" class="social-icon">
+                            <i data-lucide="mail"></i>
+                        </a>
+                        <a href="tel:9701667045" aria-label="Call Me" class="social-icon">
+                            <i data-lucide="phone"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="visual-card-wrapper">
+                        <div class="visual-card">
+                            <div class="card-header">
+                                <span class="dot-red"></span>
+                                <span class="dot-yellow"></span>
+                                <span class="dot-green"></span>
+                                <span class="card-title-text">developer.js</span>
+                            </div>
+                            <div class="card-body">
+                                <pre><code><span class="keyword">const</span> developer = {
+  name: <span class="string">'PV Kowshik'</span>,
+  role: <span class="string">'Software Developer'</span>,
+  major: <span class="string">'Information Technology'</span>,
+  passion: <span class="string">'Solving Real-World Problems'</span>,
+  skills: [
+    <span class="string">'JavaScript'</span>, <span class="string">'Python'</span>, 
+    <span class="string">'WebDev'</span>, <span class="string">'Databases'</span>
+  ],
+  motto: <span class="string">'Continuous Improvement'</span>
+};</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <a href="#about" aria-label="Scroll to About Section">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <span class="scroll-text">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-heading">Get to know me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-info">
+                        <h3 class="about-title">Who am I?</h3>
+                        <p class="about-text">
+                            I am a motivated **Information Technology** student at RVR&JC College of Engineering in Guntur, India. With a strong academic foundation and a CGPA of **9.02**, I thrive on the combination of structured programming logic and creative front-end design.
+                        </p>
+                        <p class="about-text">
+                            My journey in technology is driven by curiosity. I love exploring database systems, developing clean user interfaces, and designing automation systems. As a quick learner, I am dedicated to continuous self-improvement and collaboration.
+                        </p>
+
+                        <div class="about-details-list">
+                            <div class="detail-item">
+                                <span class="detail-label">Location:</span>
+                                <span class="detail-val">Bestavaripeta, Andhra Pradesh, India</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Study:</span>
+                                <span class="detail-val">RVR&JC College Of Engineering</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Interests:</span>
+                                <span class="detail-val">Cricket, Movies & Series, Music, Exploring</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-education">
+                        <h3 class="about-title">My Education</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-icon">
+                                    <i data-lucide="graduation-cap"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">07/2024 – 04/2028</span>
+                                    <h4 class="timeline-title">B.Tech in Information Technology</h4>
+                                    <h5 class="timeline-institution">RVR&JC College Of Engineering, Guntur</h5>
+                                    <p class="timeline-desc">Acquiring a deep understanding of core IT subjects, programming models, database systems, and algorithms. Currently maintaining a **9.02 CGPA**.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-icon">
+                                    <i data-lucide="book-open"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">07/2022 – 04/2024</span>
+                                    <h4 class="timeline-title">Intermediate Education (MPC)</h4>
+                                    <h5 class="timeline-institution">Narayana Junior College, Vijayawada</h5>
+                                    <p class="timeline-desc">Completed major courses in Mathematics, Physics, and Chemistry with a score of **97.1%**.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-icon">
+                                    <i data-lucide="award"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">03/2021 – 05/2022</span>
+                                    <h4 class="timeline-title">Secondary Education</h4>
+                                    <h5 class="timeline-institution">Alpha High School, Cumbum</h5>
+                                    <p class="timeline-desc">Graduated secondary school with a score of **92%**.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding section-bg">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-heading">What I can do</span>
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Tech Skills Card -->
+                    <div class="skill-category-card">
+                        <div class="card-icon-wrapper">
+                            <i data-lucide="code-2"></i>
+                        </div>
+                        <h3 class="category-title">Languages & Programming</h3>
+                        <p class="category-desc">Core languages used for scripting, algorithmic problem solving, and data structures.</p>
+                        <div class="skills-list">
+                            <div class="skill-tag">Python</div>
+                            <div class="skill-tag">JavaScript (ES6+)</div>
+                            <div class="skill-tag">C / C++</div>
+                            <div class="skill-tag">SQL</div>
+                            <div class="skill-tag">HTML5 / CSS3</div>
+                        </div>
+                    </div>
+
+                    <!-- Web Dev Card -->
+                    <div class="skill-category-card">
+                        <div class="card-icon-wrapper">
+                            <i data-lucide="layout"></i>
+                        </div>
+                        <h3 class="category-title">Web Development</h3>
+                        <p class="category-desc">Creating modern layouts, ensuring cross-device compatibility, and writing frontend interactive logic.</p>
+                        <div class="skills-list">
+                            <div class="skill-tag">Responsive Web Design</div>
+                            <div class="skill-tag">DOM Manipulation</div>
+                            <div class="skill-tag">Vanilla JS UI Components</div>
+                            <div class="skill-tag">CSS Flexbox / Grid</div>
+                            <div class="skill-tag">REST APIs Integration</div>
+                        </div>
+                    </div>
+
+                    <!-- Developer Tools & Databases Card -->
+                    <div class="skill-category-card">
+                        <div class="card-icon-wrapper">
+                            <i data-lucide="database"></i>
+                        </div>
+                        <h3 class="category-title">Tools & Databases</h3>
+                        <p class="category-desc">Databases for structured storage and tools that accelerate software development workflows.</p>
+                        <div class="skills-list">
+                            <div class="skill-tag">Database Management Systems</div>
+                            <div class="skill-tag">Relational Databases</div>
+                            <div class="skill-tag">Git / GitHub</div>
+                            <div class="skill-tag">VS Code</div>
+                            <div class="skill-tag">Command Line Interface</div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills Card -->
+                    <div class="skill-category-card">
+                        <div class="card-icon-wrapper">
+                            <i data-lucide="users-2"></i>
+                        </div>
+                        <h3 class="category-title">Soft Skills</h3>
+                        <p class="category-desc">Interpersonal attributes that enable collaborative teamwork and productive project delivery.</p>
+                        <div class="skills-list">
+                            <div class="skill-tag">Communication Skills</div>
+                            <div class="skill-tag">Time Management</div>
+                            <div class="skill-tag">Teamwork & Collaboration</div>
+                            <div class="skill-tag">Critical Problem Solving</div>
+                            <div class="skill-tag">Adaptability</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages & Interests Info Box -->
+                <div class="additional-info-row">
+                    <div class="info-card">
+                        <div class="info-card-header">
+                            <i data-lucide="languages"></i>
+                            <h4>Languages Spoken</h4>
+                        </div>
+                        <div class="languages-flex">
+                            <div class="language-bar">
+                                <span class="lang-name">English</span>
+                                <div class="bar-bg"><div class="bar-fill" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="language-bar">
+                                <span class="lang-name">Telugu</span>
+                                <div class="bar-bg"><div class="bar-fill" style="width: 100%;"></div></div>
+                            </div>
+                            <div class="language-bar">
+                                <span class="lang-name">Hindi</span>
+                                <div class="bar-bg"><div class="bar-fill" style="width: 70%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-card-header">
+                            <i data-lucide="smile"></i>
+                            <h4>Personal Interests</h4>
+                        </div>
+                        <ul class="interests-grid">
+                            <li><i data-lucide="film" class="interest-icon"></i> Movies & Series</li>
+                            <li><i data-lucide="award" class="interest-icon"></i> Playing Cricket</li>
+                            <li><i data-lucide="compass" class="interest-icon"></i> Travelling & Exploring</li>
+                            <li><i data-lucide="music" class="interest-icon"></i> Listening to Music</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-heading">My latest work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Smart Tourist Guide -->
+                    <div class="project-card">
+                        <div class="project-image-placeholder animate-bg-1">
+                            <div class="image-overlay-gradient"></div>
+                            <i data-lucide="map-pin" class="project-banner-icon"></i>
+                            <div class="project-tag-badge">Web Application</div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Smart Tourist Guide</h3>
+                            <p class="project-description">
+                                A tourism planning application designed to simplify travel. Users can select any Indian state and their trip duration, and the application generates a comprehensive day-wise travel itinerary highlighting famous tourist destinations and optimized paths.
+                            </p>
+                            <div class="project-skills-used">
+                                <span>JavaScript</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>UI/UX</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link-btn" onclick="alert('Demo placeholder: Deploying soon!')"><i data-lucide="external-link"></i> Live Demo</a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn btn-outline"><i data-lucide="github"></i> Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Helmet Reminder System -->
+                    <div class="project-card">
+                        <div class="project-image-placeholder animate-bg-2">
+                            <div class="image-overlay-gradient"></div>
+                            <i data-lucide="shield-check" class="project-banner-icon"></i>
+                            <div class="project-tag-badge">IoT & Safety System</div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Helmet Reminder System</h3>
+                            <p class="project-description">
+                                An innovative safety prototype where a motorcycle engine will not start unless the rider is wearing a helmet. Using pressure and proximity sensors, this hardware-software integration prevents road accidents and ensures compulsory safety gear compliance.
+                            </p>
+                            <div class="project-skills-used">
+                                <span>Sensors Integration</span>
+                                <span>Prototyping</span>
+                                <span>C / C++</span>
+                                <span>Hardware Logic</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link-btn" onclick="alert('Simulation prototype details coming soon!')"><i data-lucide="cpu"></i> System Specs</a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn btn-outline"><i data-lucide="github"></i> Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume-section section-padding section-bg">
+            <div class="container resume-container-flex">
+                <div class="resume-text-side">
+                    <span class="sub-heading">Academic Credentials</span>
+                    <h2 class="section-title">Ready to Collaborate?</h2>
+                    <p class="resume-desc-para">
+                        I am open to internships, developer roles, and collaborative projects. Download my complete resume to read about my academic history, projects, and certifications.
+                    </p>
+                    <div class="stats-row">
+                        <div class="stat-card">
+                            <span class="stat-num">9.02</span>
+                            <span class="stat-label">B.Tech CGPA</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num">97.1%</span>
+                            <span class="stat-label">Intermediate Score</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num">2+</span>
+                            <span class="stat-label">Core Projects</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-action-side">
+                    <div class="resume-preview-box">
+                        <i data-lucide="file-text" class="preview-icon"></i>
+                        <h4>Curriculum Vitae</h4>
+                        <p>Polisetty Venkata Kowshik - Resume.pdf</p>
+                        
+                        <div class="action-buttons-stack">
+                            <a href="resume.pdf" target="_blank" class="btn btn-primary w-full">
+                                <i data-lucide="eye"></i>
+                                <span>View Resume</span>
+                            </a>
+                            <a href="resume.pdf" download="Polisetty_Venkata_Kowshik_resume.pdf" class="btn btn-secondary w-full">
+                                <i data-lucide="download"></i>
+                                <span>Download PDF</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-heading">Say Hello</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-cards">
+                        <h3 class="contact-title">Let's Connect</h3>
+                        <p class="contact-subtitle">Have a question or want to work together? Drop me a message or reach out via phone or email.</p>
+                        
+                        <div class="contact-card">
+                            <div class="icon-box">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div class="card-details">
+                                <span class="card-label">Email Me</span>
+                                <a href="mailto:kowshikpolisetty47@gmail.com" class="card-value">kowshikpolisetty47@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="icon-box">
+                                <i data-lucide="phone"></i>
+                            </div>
+                            <div class="card-details">
+                                <span class="card-label">Call Me</span>
+                                <a href="tel:9701667045" class="card-value">+91 9701667045</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="icon-box">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div class="card-details">
+                                <span class="card-label">Location</span>
+                                <span class="card-value">Bestavaripeta, Andhra Pradesh, India</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="icon-box">
+                                <i data-lucide="linkedin"></i>
+                            </div>
+                            <div class="card-details">
+                                <span class="card-label">LinkedIn</span>
+                                <a href="https://linkedin.com/in/venkata-kowshik-polisetty-9a4077410" target="_blank" rel="noopener noreferrer" class="card-value">linkedin.com/in/venkata-kowshik-polisetty...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form id="contact-form" class="contact-form">
+                            <h3 class="contact-title">Send a Message</h3>
+                            
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required placeholder="Collaboration Idea">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Tell me what you are working on..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-full" id="submit-btn">
+                                <span>Send Message</span>
+                                <i data-lucide="send"></i>
+                            </button>
+                            
+                            <div class="form-status" id="form-status" style="display: none;"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#home" class="logo">
+                    <span class="logo-text">PVK</span><span class="logo-dot">.</span>
+                </a>
+                <p>Developing robust software solutions and designing user experiences.</p>
+            </div>
+            
+            <div class="footer-center">
+                <h4>Quick Links</h4>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <h4>Let's Socialize</h4>
+                <div class="footer-social-icons">
+                    <a href="https://linkedin.com/in/venkata-kowshik-polisetty-9a4077410" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i data-lucide="linkedin"></i></a>
+                    <a href="mailto:kowshikpolisetty47@gmail.com" aria-label="Email Me"><i data-lucide="mail"></i></a>
+                    <a href="tel:9701667045" aria-label="Call Me"><i data-lucide="phone"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2026 Polisetty Venkata Kowshik. All Rights Reserved.</p>
+                <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+                    <i data-lucide="arrow-up"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
